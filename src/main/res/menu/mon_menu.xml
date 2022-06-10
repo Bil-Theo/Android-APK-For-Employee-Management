@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/employer"
+        android:title="Consulter Liste"
+        app:showAsAction="ifRoom"
+        android:icon="@mipmap/communaute"
+        />
+    <item android:id="@+id/editer"
+        android:title="Editer">
+        <menu>
+            <item android:id="@+id/Ajouter"
+                android:title="Ajouter Employer"/>
+
+            <item android:id="@+id/modifier"
+                android:title="Modifier Employer"/>
+            <item android:id="@+id/supprimer"
+                android:title="Supprimer Employer"/>
+        </menu>
+    </item>
+    <item android:id="@+id/contact"
+        android:title="Contacter Employer"/>
+
+</menu>
